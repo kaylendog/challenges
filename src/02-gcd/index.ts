@@ -22,6 +22,16 @@ that does this very efficiently...
  * @param n
  * @returns
  */
-export const gcd = (m: number, n: number) => {
+export const gcd = (m: number, n: number): number => {
+	throw new Error("Not implemented");
+};
+
+/**
+ * Compute the GCD of two BigInts. This should be exactly the same as the above, and tests
+ * to see if your method is performant.
+ * @param m
+ * @param n
+ */
+export const gcdBigInt = (m: bigint, n: bigint): bigint => {
 	throw new Error("Not implemented");
 };
