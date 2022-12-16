@@ -24,6 +24,8 @@ pnpm test <challenge-name> # tests only the given challenge
 Here is a list of challenges in this project:
 
 - `00-distance-from-circle` - A function that returns the distance from a point to a circle.
+- `01-vector-operations` - Functions that deal with vector operations.
+- `02-gcd` - A function that returns the greatest common divisor of two numbers.
 
 ## License
 
