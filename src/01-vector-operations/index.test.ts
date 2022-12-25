@@ -101,7 +101,7 @@ describe("01-vector-operations", () => {
 					z: 4,
 				}
 			);
-			expect(d).toBeCloseTo(-8);
+			expect(d).toBeCloseTo(-10);
 		});
 	});
 
