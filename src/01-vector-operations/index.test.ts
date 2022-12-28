@@ -125,7 +125,7 @@ describe("01-vector-operations", () => {
 		it("should return the correct cross product for vectors (0, 0, 1) and (1, 0, 0)", () => {
 			expect(cross({ x: 0, y: 0, z: 1 }, { x: 1, y: 0, z: 0 })).toEqual({
 				x: 0,
-				y: -1,
+				y: 1,
 				z: 0,
 			});
 		});
@@ -140,9 +140,9 @@ describe("01-vector-operations", () => {
 
 		it("should return the correct cross product for vectors (1, 2, 3) and (3, 2, 1)", () => {
 			expect(cross({ x: 1, y: 2, z: 3 }, { x: 3, y: 2, z: 1 })).toEqual({
-				x: 0,
-				y: 0,
-				z: 0,
+				x: -4,
+				y: 8,
+				z: -4,
 			});
 		});
 	});
